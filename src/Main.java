@@ -43,9 +43,6 @@ public class Main {
                 });
     }
 
-
-
-
     public static double ventasNewYork(List<Ventas> ventasList, String city) {
         return ventasList.stream()
                 .filter(v -> {
